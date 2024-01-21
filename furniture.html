@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Furniture</title>
+    <link rel="stylesheet" href="./css/style1.css">
+    <script src="https://kit.fontawesome.com/1ba2cf90f3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <section>
+
+        <nav>
+
+            <span><a href="index.html"><i class="fas fa-shopping-bag"></i>Shopsy</a></span>
+
+            <ul>
+
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Sales</a></li>
+                <li><a href="">Contact</a></li>
+                <li><span onclick="openBucket()"><i class="fas fa-shopping-cart"></i></span>
+                    <span class="items-count"></span>
+                </li>
+
+            </ul>
+
+
+        </nav>
+        <main>
+
+            <div class="items item-1" data-item="Dinning Table Sets" data-price="50000"></div>
+
+            <div class="items item-2" data-item="Sofa Sets" data-price="100000"></div>
+
+            <div class="items item-3" data-item="Wardrobe" data-price="15000"></div>
+
+            <div class="items item-4" data-item="Beds" data-price="40000"></div>
+
+        </main>
+        <br>
+        <div class="cart">
+
+            <header> <span><a href="index.html"><i class="fas fa-shopping-bag"></i>Shopsy</a></span> <span
+                    class="exit"><i class="fas fa-times"></i></span> </header>
+
+            <main>
+
+                <ol>
+                    <li>Item-Name</li>
+                    <li>Qty</li>
+                    <li>Total</li>
+                </ol>
+
+                <section>
+
+                    <ul id="ul">
+                        
+                    </ul>
+
+                </section>
+
+            </main>
+
+            <footer>
+
+                <ul>
+                    <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+                </ul>
+
+            </footer>
+
+        </div>
+
+    </section>
+
+     <script src="./js/cart.js"></script>
+
+</body>
+
+</html>
